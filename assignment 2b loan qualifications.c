@@ -1,3 +1,7 @@
+/* Name:Cyprian Abincha
+   Reg:PA106/G/28791/25
+*/
+
 #include<stdio.h>
 
 int main()
