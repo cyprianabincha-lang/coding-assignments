@@ -7,7 +7,7 @@ Reg:PA106/G/28791/25
 // Function prototype
 float calculateBill(int units);
 
-int main() {
+void main() {
     int units;
     float total;
 
@@ -21,7 +21,7 @@ int main() {
     // Output result
     printf("Total electricity bill: %.2f\n", total);
 
-    return 0;
+    return ;
 }
 
 // Function definition
@@ -37,4 +37,5 @@ float calculateBill(int units) {
     }
 
     return bill;
+
 }
