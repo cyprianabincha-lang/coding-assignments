@@ -10,7 +10,7 @@ Reg PA106/G/28791/25
 // Function prototype
 float c(float f);
 
-int main()
+void main()
 {
     float degree_celsius, fahrenheit;
 
@@ -21,7 +21,7 @@ int main()
 
     printf("The Celsius temperature is = %f\n", degree_celsius);
 
-    return 0;
+    return ;
 }
 
 // Function definition
@@ -30,4 +30,5 @@ float c(float f)
     float celsius;
     celsius = (f - 32) * 5 / 9;
     return celsius;
+
 }
