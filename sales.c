@@ -1,3 +1,6 @@
+/* Cyprian Abincha
+PA106/G/28791/25
+*/
 #include <stdio.h>
 
 int main() {
@@ -19,4 +22,5 @@ int main() {
     printf("Total sales of the day: %.2f\n", total_sales);
 
     return 0;
+
 }
