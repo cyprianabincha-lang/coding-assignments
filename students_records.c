@@ -1,3 +1,6 @@
+/* cyprian Abincha
+PA106\G\28791\25
+*/
 #include <stdio.h>
 
 struct Student {
@@ -17,7 +20,7 @@ int main() {
         return 1;
     }
 
-    // Removed input prompts and scanf — we're reading from file now
+    // Removed input prompts and scanf â€” we're reading from file now
     // printf("Enter student's name:\n");
     // scanf("%19s", s.name);
     // printf("Enter registration number:\n");
@@ -36,4 +39,5 @@ int main() {
 
     fclose(fptr);
     return 0;
+
 }
